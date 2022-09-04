@@ -432,3 +432,18 @@
     padding-right: 0;
     border-right: none;
 }
+.spaceImage{
+    margin: 10px;
+}
+.borderImage{
+    box-shadow: -9px 6px 13px 0px rgba(0,0,0,1);
+-webkit-box-shadow: -9px 6px 13px 0px rgba(0,0,0,1);
+-moz-box-shadow: -9px 6px 13px 0px rgba(0,0,0,1);
+}
+@media (max-width: 320px) {
+    .spaceImage{
+        margin-right: 10px;
+        margin-top: 0px;
+        width: 45px;
+    }
+}
