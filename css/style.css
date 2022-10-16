@@ -36,6 +36,12 @@
     opacity: 1;
 }
 
+/* PARTICLES CSS */
+.particlesResponsive{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
 
 /*** Button ***/
 .btn {
