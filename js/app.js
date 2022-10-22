@@ -1,25 +1,24 @@
 particlesJS('particles-js',
-  
-  {
+{
   "particles": {
     "number": {
-      "value": 4,
+      "value": 15,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#ff0000"
+      "value": "#EC4032"
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000"
+        "color": "#EC4032"
       },
       "polygon": {
-        "nb_sides": 6
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -28,36 +27,36 @@ particlesJS('particles-js',
       }
     },
     "opacity": {
-      "value": 1,
+      "value": 0.5,
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 0,
-        "opacity_min": 0,
+        "speed": 1,
+        "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 1,
+      "value": 3,
       "random": true,
       "anim": {
-        "enable": true,
-        "speed": 20,
-        "size_min": 40,
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 200,
-      "color": "#ffffff",
-      "opacity": 1,
-      "width": 2
+      "enable": true,
+      "distance": 250,
+      "color": "#EC4032",
+      "opacity": 0.4,
+      "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 8,
-      "direction": "top-right",
+      "speed": 6,
+      "direction": "none",
       "random": false,
       "straight": false,
       "out_mode": "out",
@@ -73,18 +72,18 @@ particlesJS('particles-js',
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
-        "mode": "grab"
+        "enable": true,
+        "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 200,
+        "distance": 400,
         "line_linked": {
           "opacity": 1
         }

@@ -5,6 +5,12 @@
     --dark: #181d38;
 }
 
+body p{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    text-align: justify;
+}
 .fw-medium {
     font-weight: 600 !important;
 }
