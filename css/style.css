@@ -14,6 +14,49 @@ body p{
     text-align: justify;
 }
 
+.warningText{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.successText{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.secondaryText{
+    background-color: #06BBCC;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.yellowText{
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
+.blueText{
+    background-color: #06BBCC;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+}
+.greenText{
+    background-color: green;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.initClass{
+    text-decoration: overline;
+    font-family: 'Times New Roman', Times, serif;
+}
 .noStyleP{
     text-align: none !important;
 }
@@ -241,7 +284,7 @@ body p{
     background-size: cover;
 }
 .page-headerFive {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7));
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/matricula.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
