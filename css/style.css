@@ -53,6 +53,11 @@ body p{
     border-radius: 5px;
     font-weight: bold;
 }
+.buttonBorderRadius:hover{
+    border-radius: 25px;
+    background-color: #181d38;
+    color: white;
+}
 .initClass{
     text-decoration: overline;
     font-family: 'Times New Roman', Times, serif;
