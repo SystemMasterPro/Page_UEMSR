@@ -14,6 +14,10 @@ body p{
     text-align: justify;
 }
 
+.noStyleP{
+    text-align: none !important;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -508,7 +512,7 @@ body p{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 10px;
 }
 
 /* Track */
