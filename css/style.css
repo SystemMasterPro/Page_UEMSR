@@ -79,11 +79,19 @@ body p{
 }
 .counterVisits{
     text-align: right;
+    padding-top: 4px;
 }
 .counterVisitsNumber{
     background-color: #181d38;
     border-radius: 3px;
     padding: 5px;
+}
+.sharedFacebook{
+    text-align: right;
+    padding-bottom: 6.5px;
+}
+.mentionTwitter{
+    text-align: right;
 }
 .initClass{
     text-decoration: overline;
