@@ -117,6 +117,10 @@ body p{
     z-index: 99;
 }
 
+.imageRector{
+    border-radius: 5px;
+}
+
 
 /*** Spinner ***/
 #spinner {
