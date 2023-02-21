@@ -45,6 +45,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="css/gallery.css">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -98,11 +99,11 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 page-headerSix">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">MÓDULO IMAGES EN ELABORACIÓN</h1>
+                    <h1 class="display-3 text-white animated slideInDown">GALERÍA DE IMAGENES</h1>
                 </div>
             </div>
         </div>
@@ -110,21 +111,34 @@
     <!-- Header End -->
 
 
-    <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-                    <h1 class="display-1">Vuelva Pronto</h1>
-                    <h1 class="mb-4">Página en Elaboración</h1>
-                    <p class="mb-4 text-center">Se recomienda revisar la PÁGINA MAS TARDE!</p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5" href="index.html">Volver</a>
+    <!-- Gallery -->
+    <div class="container">
+        <div class="container__items">
+            <div class="polaroid one">
+                <div class="polaroid__content">
+                    <div class="polaroid__content-image">
+                        <img src='./img/Avatar.png'
+                            alt=''>
+                    </div>
+                    <div class="polaroid__content-caption">
+                        <p>Juegos Internos 2022-2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="polaroid two">
+                <div class="polaroid__content">
+                    <div class="polaroid__content-image">
+                        <img src='./img/Avatar.png'
+                            alt=''>
+                    </div>
+                    <div class="polaroid__content-caption">
+                        <p>Juramento de la Bandera 2022-2023</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- 404 End -->
+    <!-- End Gallery-->
 
 
     <!-- Footer Start -->
@@ -174,7 +188,13 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-
+    <script>
+        var polaroids = document.querySelectorAll('.polaroid');
+            polaroids.forEach(item => {
+                const randomRotation = Math.floor(Math.random() * (6 - -6 + 1) + -6);
+                item.style.transform = `rotate(${randomRotation}deg)`
+            })
+    </script>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

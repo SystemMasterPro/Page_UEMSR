@@ -333,6 +333,12 @@ body p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.page-headerSix {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/Gallery.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .page-header-inner {
     background: rgba(15, 23, 43, .7);
 }
@@ -578,6 +584,10 @@ body p{
 }
 .textHistory p{
     text-align: justify;
+}
+.hoverGallery:hover{
+/* text-decoration: underline; */
+color: #d80e0e;
 }
 @media (max-width: 320px) {
     .spaceImage{
