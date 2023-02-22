@@ -636,7 +636,18 @@ color: #d80e0e;
   background-color: #29b6f6;
   border-color: #29b6f6;
 }
-
+.newModuleText:hover{
+    color: #ff0000 !important;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width: 600px){
+    .demo-preview{
+        width: 100%;
+        margin-top: -50px;
+        font-size: 12px;
+    }
+}
 @media (max-width: 320px) {
     .spaceImage{
         margin-right: 10px;
