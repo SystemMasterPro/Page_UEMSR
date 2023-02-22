@@ -596,6 +596,47 @@ body p{
 /* text-decoration: underline; */
 color: #d80e0e;
 }
+.demo-preview {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.alert {
+  padding: 0.7143rem 1.071rem;
+  margin-bottom: 1.429rem;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.alert.alert-square {
+  border-radius: 0;
+}
+
+.alert .close {
+  position: relative;
+}
+
+.alert.alert-dismissable,
+.alert.alert-dismissible {
+  padding-right: 2.5rem;
+}
+
+.alert.alert-dismissable .close,
+.alert.alert-dismissible .close {
+  top: -2px;
+  right: -20px;
+  color: inherit;
+}
+
+.alert.alert-info {
+  background-color: #29b6f6;
+  border-color: #29b6f6;
+}
+
 @media (max-width: 320px) {
     .spaceImage{
         margin-right: 10px;
