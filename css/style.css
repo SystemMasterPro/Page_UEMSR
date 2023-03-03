@@ -474,6 +474,13 @@ body p{
     z-index: 1;
 }
 
+.backgroundImage{
+    border-style: groove;
+}
+.backgroundImage:hover{
+    background-color: #CCCCCC;
+}
+
 @media (min-width: 768px) {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
@@ -660,6 +667,9 @@ color: #d80e0e;
         width: 100%;
         margin-top: -50px;
         font-size: 12px;
+    }
+    .backgroundImage h5{
+        font-size: 13px;
     }
 }
 @media (max-width: 320px) {
