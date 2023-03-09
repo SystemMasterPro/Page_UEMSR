@@ -1,0 +1,26 @@
+.gridOne{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 40px;
+}
+.newInfo:hover{
+    background-color: red;
+    border-radius: 10px;
+    font-style: oblique;
+}
+.newInfo:hover h3{
+    color: aliceblue;
+}
+@media (max-width: 700px){
+    .gridOne{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 40px;
+}
+}
