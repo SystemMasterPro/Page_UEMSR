@@ -5,15 +5,22 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-top: 40px;
+    grid-gap: 10px;
 }
-.newInfo:hover{
+.newInfo{
+    margin-bottom: 20px;
+}
+.gridOne .newInfo{
+    text-align: center;
+}
+/* .newInfo:hover{
     background-color: red;
     border-radius: 10px;
     font-style: oblique;
 }
 .newInfo:hover h3{
     color: aliceblue;
-}
+} */
 @media (max-width: 700px){
     .gridOne{
     display: grid;
