@@ -139,6 +139,14 @@
                         </div>
                         <div class="row">
                             <div class="col backgroundImage">
+                                <h5>Código de Convivencia</h5>
+                                <a id="message">
+                                    <img src="./img/Código.png" width="100%" alt="CódigoConvivencia">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col backgroundImage">
                                 <h5>Cronograma Escolar 2022/23</h5>
                                 <a href="https://drive.google.com/file/d/1qd_GUCnndj6s2y9jpbg0uoRmrSEwP4O5/view?usp=sharing" target="_blank">
                                     <img src="./img/calendarMineduc.png" alt="" width="100%">
@@ -212,6 +220,15 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     
+<script>
+    let message = document.getElementById("message");
+    message.onclick = Message
+
+    function Message(){
+        alert("Documento ¡NO DISPONIBLE!")
+    }
+</script>
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
