@@ -14,7 +14,12 @@ fetch("https://yujlpvpwopbgtpigmuji.supabase.co/rest/v1/docentes?select=*", {
 const viewData = (data) => {
     let body = '';
     for (let i = 0; i < data.length; i++) {
-        body += `
+        if (data[i].name === "Leydy") {
+            console.log("NO DEBO SALIR AQUI");
+        } else if (data[i].name === "Mercy ") {
+            console.log("NO DEBO SALIR AQUI");
+        } else {
+            body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
@@ -27,6 +32,7 @@ const viewData = (data) => {
                     </div>
                 </div>         
         `;    
+        }
     }
     document.getElementById('teachers').innerHTML = body;
 }
