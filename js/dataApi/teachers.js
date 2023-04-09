@@ -18,6 +18,8 @@ const viewData = (data) => {
             console.log("NO DEBO SALIR AQUI");
         } else if (data[i].name === "Mercy ") {
             console.log("NO DEBO SALIR AQUI");
+        } else if (data[i].name === "Richard Fernando") {
+            console.log("NO DEBO SALIR AQUI");
         } else {
             body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
