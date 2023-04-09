@@ -14,9 +14,7 @@ fetch("https://yujlpvpwopbgtpigmuji.supabase.co/rest/v1/docentes?select=*", {
 const viewData = (data) => {
     let body = '';
     for (let i = 0; i < data.length; i++) {
-        if (data[i].name === "Leydy") {
-            console.log("NO DEBO SALIR AQUI");
-        } else if (data[i].name === "Mercy ") {
+        if (data[i].state === false) {
             console.log("NO DEBO SALIR AQUI");
         } else if (data[i].name === "Richard Fernando") {
             console.log("NO DEBO SALIR AQUI");
