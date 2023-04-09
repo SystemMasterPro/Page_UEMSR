@@ -18,7 +18,7 @@ const viewData = (data) => {
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="https://i.imgur.com/zv1UVWU.jpg" title="UEMSR" />
+                            <img class="img-fluid" src="${data[i].image}" title="UEMSR" />
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">${data[i].level_education} ${data[i].name} ${data[i].surname}</h5>
