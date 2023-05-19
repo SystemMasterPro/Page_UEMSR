@@ -7,7 +7,7 @@ fetch("https://yujlpvpwopbgtpigmuji.supabase.co/rest/v1/news?select=*", {
     
     }
 })
-    .then(response => response.json())
+    .then(response => response.json()) 
     .then(data =>  viewData(data))
     .catch(err => console.log(err))
 
@@ -16,10 +16,10 @@ const viewData = (data) => {
     for (let i = 0; i < data.length; i++) {
         body += `
             <div class="newInfo">
-                            <h5>${data[i].title}</h5>
+                            <h5 class="titleCard">${data[i].title}</h5>
                             <iframe
                                 src="${data[i].link}"
-                                width="100%" height="831" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+                                width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                             </iframe>
                         </div> 

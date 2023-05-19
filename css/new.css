@@ -13,6 +13,9 @@
 .gridOne .newInfo{
     text-align: center;
 }
+.titleCard{
+    font-size: 15px;
+}
 /* .newInfo:hover{
     background-color: red;
     border-radius: 10px;
