@@ -19,7 +19,7 @@ const viewData = (data) => {
                             <h5 class="titleCard">${data[i].title}</h5>
                             <iframe
                                 src="${data[i].link}"
-                                width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+                                width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                             </iframe>
                         </div> 
