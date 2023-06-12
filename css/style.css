@@ -39,8 +39,22 @@ body p{
     padding: 3px;
     font-weight: bold;
 }
+.tomatoText{
+    background-color: #ff7506;
+    border-radius: 5px;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
 .blueText{
     background-color: #06BBCC;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+}
+.redText{
+    background-color: red;
     color: black;
     border-radius: 5px;
     font-weight: bold;
