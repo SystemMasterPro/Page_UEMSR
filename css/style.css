@@ -690,6 +690,9 @@ color: #d80e0e;
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.imageEnroll img{
+    width: 100%;
+}
 @media (max-width: 600px){
     .demo-preview{
         width: 100%;
