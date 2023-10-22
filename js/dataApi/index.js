@@ -14,7 +14,7 @@ fetch("https://yujlpvpwopbgtpigmuji.supabase.co/rest/v1/docentes?select=*", {
 const viewData = (data) => {
     let body = '';
     for (let i = 0; i < data.length; i++) {
-        if (data[i].name === "José") {
+        if (data[i].name === "Liliana") {
             body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
@@ -28,7 +28,7 @@ const viewData = (data) => {
                     </div>
                 </div>
         `
-        } else if (data[i].name === "Judith") {
+        } else if (data[i].name === "José") {
             body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
@@ -42,7 +42,7 @@ const viewData = (data) => {
                     </div>
                 </div>
         `
-        } else if (data[i].name === "Macrina") {
+        } else if (data[i].name === "Wellington") {
             body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
