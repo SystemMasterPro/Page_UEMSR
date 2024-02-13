@@ -72,6 +72,6 @@ const viewData = (data) => {
         `
         }
     }
-    console.log(body);
+    //console.log(body);
     document.getElementById('teamPro').innerHTML = body;
 }
