@@ -14,7 +14,7 @@ fetch("https://yujlpvpwopbgtpigmuji.supabase.co/rest/v1/docentes?select=*", {
 const viewData = (data) => {
     let body = '';
     for (let i = 0; i < data.length; i++) {
-        if (data[i].name === "Liliana") {
+        if (data[i].name === "Macrina") {
             body += `
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
